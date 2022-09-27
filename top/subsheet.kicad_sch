@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 8e10f358-a0a5-4c21-9be5-b68f957ea0e6)
+  (uuid 31e4e539-1a7c-4fe6-a0ac-67f8264b803e)
 
   (paper "A4")
 
@@ -47,48 +47,22 @@
   )
 
 
-  (symbol (lib_id "Device:R") (at 127 100.33 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 153.67 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 98e355a8-cded-491e-9793-b7a2f6049815)
-    (property "Reference" "R?" (id 0) (at 129.54 99.0599 0)
+    (uuid 450038da-accc-459c-b91f-0ccc22a8e434)
+    (property "Reference" "R?" (id 0) (at 156.21 100.3299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R" (id 1) (at 129.54 101.5999 0)
+    (property "Value" "R" (id 1) (at 156.21 102.8699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 125.222 100.33 90)
+    (property "Footprint" "" (id 2) (at 151.892 101.6 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 127 100.33 0)
+    (property "Datasheet" "~" (id 3) (at 153.67 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 06282f69-d1c5-4e0a-b519-58947cf81a6e))
-    (pin "2" (uuid 0db12f45-d0c6-4817-8a31-c6cedc72d448))
-  )
-
-  (sheet (at 149.86 86.36) (size 30.48 22.86) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid ce4d26e0-43fa-468b-87fa-126cc9d765a0)
-    (property "Sheet name" "subsheet" (id 0) (at 149.86 85.6484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "subsheet.kicad_sch" (id 1) (at 149.86 109.8046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-    (path "/ce4d26e0-43fa-468b-87fa-126cc9d765a0" (page "2"))
-  )
-
-  (symbol_instances
-    (path "/ce4d26e0-43fa-468b-87fa-126cc9d765a0/450038da-accc-459c-b91f-0ccc22a8e434"
-      (reference "R?") (unit 1) (value "R") (footprint "")
-    )
-    (path "/98e355a8-cded-491e-9793-b7a2f6049815"
-      (reference "R?") (unit 1) (value "R") (footprint "")
-    )
+    (pin "1" (uuid ebbe2c56-4b44-46cd-be38-24993b6d09b5))
+    (pin "2" (uuid 22bd5210-182a-414f-ab3f-4a69c502e528))
   )
 )
